@@ -369,7 +369,7 @@ return [
     'organization' => [
         'en-US' => [
             'name' => env('SAML2_ORGANIZATION_NAME', 'Name'),
-            'displayname' => env('SAML2_ORGANIZATION_NAME', 'Display Name'),
+            'displayname' => env('SAML2_ORGANIZATION_DISPLAY_NAME', 'Display Name'),
             'url' => env('SAML2_ORGANIZATION_URL', 'http://url')
         ],
     ],
